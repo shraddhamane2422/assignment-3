@@ -1,0 +1,98 @@
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly ;
+   margin-top: 20px;
+   color: rgba(0, 0, 0, 0.456);
+}
+.icon:hover{ text-decoration: underline blue;
+color: black;}
+.button{
+    background-color:#ffd8db;
+    color: blue;
+    text-align:right;
+    border-radius: 20px;
+    border: none;    height: 50px;
+    width: 150px;
+    text-align: center;
+}
+.icon{ margin-top: 20px;}
+
+   
+.button2{
+    background-color: #5243c0;
+    color: white;
+    border-radius: 20px;
+    padding: 0;
+    height: 50px;
+    width: 150px;
+    border: none;
+}
+#left{
+    width:55% ;
+}
+.right{
+    width: 45%;
+    padding-top: 70px;
+}
+#content{
+    width:70%
+
+
+}
+#container{
+    display: flex;
+    width:80%;
+    margin: 80px auto;
+}
+.pink{width: 20px;
+    height: 10px;
+    background-color: #FED7DA;
+    
+    border-radius: 40px;
+}
+.date1{color: rgba(0, 0, 0, 0.277);
+padding: 0 10px;}
+.orange{
+    width: 20px;
+    height: 10px;
+    background-color: #fd6534;
+    
+    border-radius: 40px;}
+.blue{width: 20px;
+    height: 10px;
+    background-color: #9ed095;
+    
+    border-radius: 40px;}    
+.red{width: 20px;
+    height: 10px;
+    background-color: #ffe4a0;
+    
+    border-radius: 40px;}  
+.bottom{
+       width: 25%;
+       display: flex;
+       margin-left: 150px;
+       padding: 10px;
+       justify-content: space-between;
+    margin-top:5px;}
+
+#up{padding: 0 5px;
+    margin-top: 10px;}
+#down{
+      padding: 0 5px;}
+
+
+#image2{display: none;}  
+   
+#tick1 { width: 40%;}
+
+.bottom:hover #image1{
+    display: none;
+    
+}
+.bottom:hover #image2{
+    display: block;
+}
+.bottom:hover{ box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.429);}
+.date1{ color: rgba(0, 0, 0, 0.316);}
